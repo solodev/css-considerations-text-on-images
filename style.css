@@ -1,0 +1,28 @@
+.sectional {
+    background-size: cover;
+    background-position: right 50% center;
+}
+.sectional-1 {
+    background-image: url('https://raw.githubusercontent.com/solodev/css-considerations-text-on-images/master/image-1.jpg');
+}
+.sectional-2 {
+    background-image: url('https://raw.githubusercontent.com/solodev/css-considerations-text-on-images/master/image-2.jpg');
+}
+.sectional-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.3)),url('https://raw.githubusercontent.com/solodev/css-considerations-text-on-images/master/image-3.jpg');
+}
+@media only screen and (max-width: 767px) {
+    .mobile-box {
+        background: rgba(0,0,0,.5);
+        padding: 15px;
+    }
+}
+.bg-box {
+    background: rgba(0,0,0,.5);
+}
+.pos-r {
+    position: relative!important;
+}
+.h-300p {
+    height: 300px!important;
+}
